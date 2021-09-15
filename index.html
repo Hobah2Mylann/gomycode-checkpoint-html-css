@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Début header -->
+    <header class="container">
+        <!-- barre de navigation -->
+        <nav>
+            <div class="nav">
+                <ul class="nav__bar">
+                   <div class="nav__left">
+                        <a href="">Portfolio</a>
+                   </div>
+                   <div class="nav__right">
+                        <a href="">About</a>
+                        <a href="">Project</a>
+                        <a href="">Contact</a>
+                   </div>
+                </ul>
+            </div>
+        </nav>
+        <!-- division secondaire -->
+        <div class="intro">
+            <div class="intro__text">
+                <div class="intro__text--up">
+                    <h1>Bienvenue sur le site de MARTIAL YAO</h1>
+                </div>
+                <div class="intro__text--down">
+                    <p>Dévéloppeur de logiciels</p>
+                </div>
+            </div>
+            <!-- Logo des languages utilisés -->
+            <div class="intro__logo">
+                <div class="intro__logo--image">
+                    <img src="img/html.jpg" alt="">
+                </div>
+                <div class="intro__logo--image_1">
+                    <img src="img/css.jpg" alt="">
+                </div>
+                <div class="intro__logo--image_1">
+                    <img src="img/JS.jpg" alt="">
+                </div>
+                <div class="intro__logo--image">
+                    <img src="img/node.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Fin header -->
+
+    <!-- Début main -->
+    <main class="project">
+        <div class="project__text">
+            <h3>Mes Projets réalisés</h3>
+        </div>
+        <div class="project__view">
+            <!-- insertions d'images -->
+            <div class="image__line">
+                <div class="project__view--image">
+                    <img src="img/img1.jpg" alt="">
+                </div>
+                <div class="project__view--image">
+                    <img src="img/img2.jpg" alt="">
+                </div>
+                <div class="project__view--image">
+                    <img src="img/img3.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="image__line">
+                <div class="project__view--image">
+                    <img src="img/img4.jpg" alt="">
+                </div>
+                <div class="project__view--image">
+                    <img src="img/img5.jpg" alt="">
+                </div>
+                <div class="project__view--image">
+                    <img src="img/img6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Fin main -->
+
+    <!-- Début footer -->
+    <footer>
+        <!-- premier bloc footer -->
+        <div class="contact">
+            <div class="contact__media">
+                <div class="contact__media--text_1">
+                    <p>Contactez-moi sur mes réseaux</p>
+                </div>
+
+                <!-- logos de mes réseaux -->
+                <div class="contact__media--images">
+                    <div class="contact__media--images logo">
+                        <img src="img/Facebook.jpg" alt="">
+                    </div>
+
+                    <div class="contact__media--images logo">
+                        <img src="img/Linkdn.jpg" alt="">
+                    </div>
+
+                    <div class="contact__media--images logo">
+                        <img src="img/twitter.jpg" alt="">
+                    </div>
+
+                    <div class="contact__media--images logo">
+                        <img src="img/instagram.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="contact__media--text_2">
+                    <p>Envoyez-moi un email</p>
+                    <a href="">ici</a>
+                </div>
+            </div>
+
+            <div class="user">
+                <div class="user__info">
+                    <div class="user__info--mail">
+                        <p>Votre Email*</p>
+                        <input type="text" placeholder="votregmail">
+                    </div>
+                    <div class="user__info--name">
+                        <p>Votre Prénom*</p>
+                        <input type="text">
+                    </div>
+                    <div class="user__info--message">
+                        <p>Votre message*</p>
+                        <input type="text">
+                    </div> 
+                    <div class="submission">
+                        <button type="submit" class="btn">Envoyer</button>
+                    </div>
+                </div>
+                <div class="intro--video">
+                    <video width="170" height="160" controls>
+                        <source src="" type="video/mp4"/>
+                     </video>
+                </div>
+            </div>
+        </div>
+
+        <!-- deuxième bloc footer, rien que du blanc -->
+        <div class="white--bloc"></div>
+    </footer>
+</body>
+</html>
